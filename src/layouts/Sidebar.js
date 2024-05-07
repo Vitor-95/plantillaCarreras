@@ -20,7 +20,7 @@ const navigation = [
     opcion: ["MALLA CURRICULAR"],
     href: ["mallacurricular"],
     icon: "bi bi-bell",
-  },
+  },  
   {
     title: "CALENDARIO ACADEMICO",
     opcion: ["HORARIOS", "FECHAS DE EXAMEN", "OTRAS ACTIVIDADES"],
