@@ -3,7 +3,7 @@ import {
 
 } from "reactstrap";
 import { Link, useLocation } from "react-router-dom";
-import user1 from "../assets/images/logos/logoPrincipal.jpg";
+import user1 from "../assets/images/logos/logoPrincipal.jpeg";
 import probg from "../assets/images/logos/Afuera.png";
 import { useState } from "react";
 import "./styleSidebar.css"
@@ -12,37 +12,37 @@ const navigation = [
   {
     title: "Quienes Somos",
     opcion: ["MISION Y VISION", "ORGANIGRAMA", "ESTATUTOS"],
-    href: ["/mision", "/organigrama", "/estatutos"],
+    href: ["mision", "organigrama", "estatutos"],
     icon: "bi bi-speedometer2",
   },
   {
     title: "PLAN DE ESTUDIOS",
     opcion: ["MALLA CURRICULAR"],
-    href: ["/mallacurricular"],
+    href: ["mallacurricular"],
     icon: "bi bi-bell",
   },
   {
     title: "CALENDARIO ACADEMICO",
     opcion: ["HORARIOS", "FECHAS DE EXAMEN", "OTRAS ACTIVIDADES"],
-    href: ["/horarios", "/fechasExamen", "/actividades"],
+    href: ["horarios", "fechasExamen", "actividades"],
     icon: "bi bi-patch-check",
   },
   {
     title: "ADMISION",
     opcion: ["MODALIDADES DE ADMISION", "REQUISITOS DE ADMISION", "MATRICULA"],
-    href: ["/modalidadAdmision", "/requisitosAdmision", "/matricula"],
+    href: ["modalidadAdmision", "requisitosAdmision", "matricula"],
     icon: "bi bi-hdd-stack",
   },
   {
     title: "TITULACION",
     opcion: ["MODALIDADES DE TITUALACION", "REQUISITOS"],
-    href: ["/modalidadTitulacion", "/requisitoTitulacion"],
+    href: ["modalidadTitulacion", "requisitoTitulacion"],
     icon: "bi bi-card-text",
   },
   {
     title: "BECAS",
     opcion: ["BECA AUXILIATURA REQUISITOS Y REGLAMENTOS"," BECA COMEDOR REQUISITOS Y REGLAMENTO","INTERCAMBIO ESTUDIANTIL"],
-    href: ["/becaAuxiliatura","/becaComedor","/becaIntercambio"],
+    href: ["becaAuxiliatura","becaComedor","becaIntercambio"],
     icon: "bi bi-columns",
   },
   
@@ -90,7 +90,6 @@ const Sidebar = () => {
                   <Button
                     className="nav-link btn btn-secondary py-3 d-flex align-items-center"
                     outline 
-                    color="primary"
                     onClick={() => handleSubmenuClick(index)}
                     style={{ textAlign: 'start', width: '100%', justifyContent: 'flex-start' }}
                   >

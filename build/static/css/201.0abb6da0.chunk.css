@@ -1,0 +1,2 @@
+@keyframes slideDown{0%{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}@keyframes slideUp{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(-10px)}}.slideDown{animation:slideDown .3s ease-in-out forwards}.slideUp{animation:slideUp .3s ease-in-out forwards}.submenu{list-style:none;margin-top:0;overflow:hidden;padding-left:0}
+/*# sourceMappingURL=201.0abb6da0.chunk.css.map*/

@@ -4,7 +4,7 @@ import {
   NavbarBrand,
   Button,
 } from "reactstrap";
-import Logo from "../assets/images/logos/fcefa.png"
+import Logo from "../assets/images/logos/logoPrincipal.jpeg"
 import { ReactComponent as LogoWhite } from "../assets/images/logos/logoPrincipal.svg";
 
 const Header = () => {
@@ -24,7 +24,8 @@ const Header = () => {
         <img
               src={Logo}
               alt="profile"
-              className="rounded-circle"
+              //className="{width: 200px; height: 100px; border-radius: 100px;}"
+              border-radius= "1"
               width="100"
         ></img>
         </div>
