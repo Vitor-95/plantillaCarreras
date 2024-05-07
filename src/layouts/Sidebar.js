@@ -30,7 +30,7 @@ const navigation = [
   {
     title: "ADMISION",
     opcion: ["MODALIDADES DE ADMISION", "REQUISITOS DE ADMISION", "MATRICULA"],
-    href: ["modalidadAdmision", "requisitosAdmision", "matricula"],
+    href: ["modalidadAdmision", "requisitoAdmision", "matricula"],
     icon: "bi bi-hdd-stack",
   },
   {

@@ -5,7 +5,6 @@ import {
   Button,
 } from "reactstrap";
 import Logo from "../assets/images/logos/logoPrincipal.jpeg"
-import { ReactComponent as LogoWhite } from "../assets/images/logos/logoPrincipal.svg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -29,16 +28,22 @@ const Header = () => {
               width="100"
         ></img>
         </div>
-        <NavbarBrand href="/">
-          <LogoWhite className=" d-lg-none" />
-        </NavbarBrand>
         <Button
           color="primary"
           className=" d-lg-none"
           onClick={() => showMobilemenu()}
         >
-          <i className="bi bi-list"></i>
+          <i className="bi bi-list width: 50px; height: 50px;"></i>
         </Button>
+        <NavbarBrand href="/">
+        <img
+              src={Logo}
+              alt="profile"
+              className="d-lg-none"
+              border-radius= "1"
+              width="100"
+        ></img>
+        </NavbarBrand>
       </div>
       <div className="hstack gap-2">
         <Button
